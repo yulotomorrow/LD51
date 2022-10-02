@@ -1174,6 +1174,7 @@ GameObject:
   - component: {fileID: 1325179042}
   - component: {fileID: 1325179041}
   - component: {fileID: 1325179039}
+  - component: {fileID: 1325179050}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1234,6 +1235,7 @@ MonoBehaviour:
   - {fileID: 1325179043}
   - {fileID: 1325179042}
   - {fileID: 1325179041}
+  - {fileID: 1325179050}
   - {fileID: 1325179039}
   - {fileID: 1325179040}
   suppressAllAutoSelections: 0
@@ -1264,7 +1266,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1325179032}
   selectedCommands:
-  - {fileID: 1325179040}
+  - {fileID: 1325179039}
   variables: []
   description: 
   stepPause: 0
@@ -1414,8 +1416,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: I'm good at music and will definetely play the flute once I get it!
-    New adventure, here I come!!!
+  storyText: Alright... I'm good at music and will definetely play the flute once
+    I get it! New adventure, here I come!!!
   description: 
   character: {fileID: 18287254}
   portrait: {fileID: 450857072, guid: 54c20cd2114589c44bb736f27cfe09e5, type: 3}
@@ -1461,7 +1463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: Ayaya...I have redish hair but I'm not a giant skeleton.
+  storyText: 'Ayaya...I have redish hair but I''m not a giant skeleton. '
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
@@ -1488,7 +1490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: Oh right! Pico chan is bad at music and singing! Your singing vioce
+  storyText: Oh right! Pico chan is bad at music and singing! Your singing voice
     is like a giant red skeleton humming!
   description: 
   character: {fileID: 18287254}
@@ -1516,7 +1518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: 'I would sing badly and lock you in the temple forever. '
+  storyText: 'I can''t figure out anything about music. '
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
@@ -1624,7 +1626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: The flute will only appear when the full sequence is correct.
+  storyText: The flute will only appear when the full sequence is correct and reach
+    the innermost room.
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
@@ -1651,8 +1654,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 'But according to historical report, the doors detect certain music
-    patterns to open. '
+  storyText: 'But according to historical report, the doors connecting each room
+    need "passcode" from certain music patterns to open. '
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
@@ -1680,6 +1683,34 @@ MonoBehaviour:
   itemId: 6
   indentLevel: 0
   storyText: 'I didn''t detect trace of any living beings inside the temple. '
+  description: 
+  character: {fileID: 1891627361}
+  portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1325179050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325179030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  storyText: I will assist you remotely just as usual, but I deserve some relax after
+    all the walk in the jungle.
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}

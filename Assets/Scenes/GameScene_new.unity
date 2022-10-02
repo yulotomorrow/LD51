@@ -442,6 +442,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c56f61a84bb8f89468cbbbef17f3fc8f, type: 3}
   - {fileID: 8300000, guid: 26974f0a137ce1945b92a02ba92c1dc5, type: 3}
   - {fileID: 8300000, guid: ad0dae74dfe23ec4da4a0dd1c8bb37d9, type: 3}
+  shade: {fileID: 0}
+  text: {fileID: 0}
   correctNum: 0
   totalNum: 4
   sequence: 0000000001000000040000000a000000060000000a0000000a0000000a000000
@@ -1701,8 +1703,6 @@ GameObject:
   - component: {fileID: 1325179037}
   - component: {fileID: 1325179049}
   - component: {fileID: 1325179048}
-  - component: {fileID: 1325179047}
-  - component: {fileID: 1325179046}
   - component: {fileID: 1325179044}
   - component: {fileID: 1325179043}
   - component: {fileID: 1325179042}
@@ -1765,15 +1765,13 @@ MonoBehaviour:
   - {fileID: 1325179036}
   - {fileID: 1325179051}
   - {fileID: 1325179035}
-  - {fileID: 1325179038}
   - {fileID: 1325179050}
+  - {fileID: 1325179038}
   - {fileID: 1325179037}
   - {fileID: 1325179049}
   - {fileID: 1325179052}
   - {fileID: 1325179055}
   - {fileID: 1325179048}
-  - {fileID: 1325179047}
-  - {fileID: 1325179046}
   - {fileID: 1325179044}
   - {fileID: 1325179043}
   - {fileID: 1325179042}
@@ -1807,7 +1805,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1325179032}
   selectedCommands:
-  - {fileID: 1325179056}
+  - {fileID: 1325179039}
   variables:
   - {fileID: 1325179054}
   description: 
@@ -1849,7 +1847,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Good news, neither of us need to sing now.
+  storyText: I need to observe there statues carefully later. This is an ancient
+    ruin in a deep forest anyway.
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
@@ -1904,7 +1903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: what is that, a cog on the base of the statue? Let me turn it...
+  storyText: What is that, a gear on the base of the statue? Let me turn it...
   description: 
   character: {fileID: 18287254}
   portrait: {fileID: 450857072, guid: 54c20cd2114589c44bb736f27cfe09e5, type: 3}
@@ -1931,8 +1930,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: Starting from anyone enters the room, the statues will start sending
-    signals.
+  storyText: 'but I assume it''s a piece of the full tune. How does it connect to
+    the Flute and what we can know from it? Hmm... '
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
@@ -1986,8 +1985,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: Then what I have to do is move the cog and tune the wall decoration
-    AND the sound timing at the same time.
+  storyText: Then what I have to do is tweak the base of the statues, and tune the
+    wall decoration to match the picth of them all.
   description: 
   character: {fileID: 18287254}
   portrait: {fileID: 450857072, guid: 54c20cd2114589c44bb736f27cfe09e5, type: 3}
@@ -2014,8 +2013,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: So that's it! The wall decoration is the key to find the correct pitch
-    sequence.
+  storyText: Oh, so that's it! To solve the puzzle in eac room, the wall decoration
+    should match the music sequence you hear.
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
@@ -2042,65 +2041,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: The clock thing on the wall looks different now!
+  storyText: Pico chan, something had changed! One of the symbol on the wall looks
+    different now!
   description: 
   character: {fileID: 18287254}
   portrait: {fileID: 450857072, guid: 54c20cd2114589c44bb736f27cfe09e5, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325179046
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325179030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 10
-  indentLevel: 0
-  storyText: 'Pico chan, something else had changed! '
-  description: 
-  character: {fileID: 18287254}
-  portrait: {fileID: 450857072, guid: 54c20cd2114589c44bb736f27cfe09e5, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325179047
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325179030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 9
-  indentLevel: 0
-  storyText: I heard one of the statue sound earlier than before. But it still goes
-    back to 10 seconds interval.
-  description: 
-  character: {fileID: 1891627361}
-  portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2179,7 +2124,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: Listen carefully. Each statue make a pitch every 10 seconds.
+  storyText: But first I heard something. There's a strange tune playing and looping
+    every 10 seconds. It doesn't sound like a song yet
   description: 
   character: {fileID: 1891627361}
   portrait: {fileID: 347194509, guid: f76537c928efe4f4a8c3c266118b331b, type: 3}
