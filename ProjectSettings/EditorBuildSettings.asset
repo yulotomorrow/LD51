@@ -12,8 +12,23 @@ EditorBuildSettings:
     path: Assets/Scenes/PlotScene.unity
     guid: 583cef91432df6e4198b962fb8fad308
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 7a45c05c7ac695744b378e6568c38109
+    path: Assets/Scenes/GameScene_new.unity
+    guid: 35fc5acd4911336429a9b7a225417b4f
+  - enabled: 1
+    path: Assets/Scenes/GameScene_new2.unity
+    guid: aff63a403f74c8b41981eb7a22501cef
+  - enabled: 1
+    path: Assets/Scenes/GameScene_new3.unity
+    guid: b22f945891d041d458eed3c6acfd1ebd
+  - enabled: 1
+    path: Assets/Scenes/GameScene_new4.unity
+    guid: ca49e53a318c5dd459503af8e06bac31
+  - enabled: 1
+    path: Assets/Scenes/GameScene_new5.unity
+    guid: ddd86739fe866524f8279fa01a34deee
+  - enabled: 1
+    path: Assets/Scenes/AnimationScene.unity
+    guid: 0bf9d0cdf8783464b8e8379295e73a9d
   - enabled: 1
     path: Assets/Scenes/EndingScene.unity
     guid: 73cba93421f066340833950bb8414176

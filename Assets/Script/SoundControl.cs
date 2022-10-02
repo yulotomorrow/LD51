@@ -17,7 +17,7 @@ public class SoundControl : MonoBehaviour
     {
         au = GetComponent<AudioSource>();       
         unit = 0.3125f;
-        count = (float)delay * unit;
+        count = -(float)delay * unit;
         c1 = new Color(0.54f, 0.44f, 0.44f);
         c2 = new Color(0.99f, 0.92f, 0.73f);
         if(delay == correctDelay)
@@ -70,7 +70,7 @@ public class SoundControl : MonoBehaviour
     }
     public void ScriptedChange() 
     {
-        count += 7.5f / 4;
+        count += 2 * unit;
         delay = 0;
         clockHand.GetComponent<SpriteRenderer>().color = c2;
     }

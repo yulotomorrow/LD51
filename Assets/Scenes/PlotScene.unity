@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
+    x: 66
     y: 70
     width: 112.4
     height: 40
@@ -1264,7 +1264,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1325179032}
   selectedCommands:
-  - {fileID: 1325179039}
+  - {fileID: 1325179040}
   variables: []
   description: 
   stepPause: 0
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1325179039
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1444,7 +1444,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: GameScene
+    stringVal: GameScene_new
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1325179041
